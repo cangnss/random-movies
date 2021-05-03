@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Movies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row left-content">
+            <div class="col-6">
+                <img src="img/lotr.jpg" class="img-fluid movie-poster">
+            </div>
+            <div class="col-6 right-content">
+                <div class="row right-content-top"><!--1.row-->
+                    <div class="col mt-4">
+                        <div class="col">
+                            <h3>LOTR:The Fellowship of the Ring</h3>
+                        </div>
+                        <div class="col">
+                            <ul style="display: flex;">
+                                <li>2h 58min</li>
+                                <li>Action, Adventure, Drama</li>
+                                <li>19 December 2001(USA)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-4 mt-4 rating">
+                        <div class="col">
+                            <i class="fas fa-star fa-3x"></i>
+                        </div>
+                        <div class="col-9">
+                            <h3>8.8/10</h3>
+                            <h5>1,688,013</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row right-content-mid"><!--2.row-->
+                    <div class="col">
+                        <p class="text-center fs-3 fw-bolder">YOUR ORDER</p>
+                    </div>
+                    <div class="col-8">
+                        <table class="table table-borderless">
+                            <tbody>
+                              <tr>
+                                <td>Movie</td>
+                                <td>LOTR:The Fellowship of The Ring</td>
+                              </tr>
+                              <tr>
+                                <td>Theater</td>
+                                <td>Cinemaximum</td>
+                              </tr>
+                              <tr>
+                                <td>Date</td>
+                                <td>19 December 2001</td>
+                              </tr>
+                              <tr>
+                                <td>Room</td>
+                                <td>Screen 4</td>
+                              </tr>
+                              <tr>
+                                <td>Ticket Name</td>
+                                <td>Gunes</td>
+                              </tr>
+                              <tr>
+                                <td>Chair Position</td>
+                                <td>L1 O2 T3 R4</td>
+                              </tr>
+                              <tr>
+                                <td style="font-weight: bold;">GRANT TOTAL</td>
+                                <td style="font-weight: bold;color: red;"><i class="fas fa-lira-sign"></i>150</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+                <div class="row right-content-bottom"><!--3.row-->
+                    <div class="col">
+                        <p class="text-center fs-3 fw-bolder">CHECKOUT</p>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="input-group input-group-sm mb-3 inputs-div">
+                                <span class="fw-bolder lh-1">Name on card</span>
+                                <input type="text" class="form-control inputs" placeholder="Ali Can Güneş"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="input-group input-group-sm mb-3 inputs-div">
+                                    <span class="fw-bolder lh-1">Card Number</span>
+                                    <input type="text" class="form-control inputs" placeholder="4693 7512 0600 1311"/>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <i class="fab fa-cc-visa fa-3x visa"></i>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="input-group input-group-sm mb-3 inputs-div">
+                                    <span class="fw-bolder lh-1">Expired date</span>
+                                    <input type="text" class="form-control input-small" placeholder="2022"/>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="input-group input-group-sm mb-3 inputs-div">
+                                    <span class="fw-bolder lh-1">Month</span>
+                                    <input type="text" class="form-control input-small" placeholder="11"/>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="input-group input-group-sm mb-3 inputs-div">
+                                    <span class="fw-bolder lh-1">CVC Code</span>
+                                    <input type="password" class="form-control input-small" placeholder="123"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10px;">
+                            <div class="col">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label fw-bolder" for="flexCheckDefault">
+                                      QUICKPAY
+                                    </label>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-primary btn-lg payment-btn">MAKE PAYMENT</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5">
+                                <p class="fw-bolder mt-3">or you can pay with</p>
+                            </div>
+                            <div class="col">
+                                <i class="fab fa-cc-paypal fa-4x"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>

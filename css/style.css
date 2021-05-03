@@ -1,0 +1,55 @@
+body{
+    background: rgb(153,48,48);
+background: linear-gradient(101deg, rgba(153,48,48,1) 0%, rgba(144,18,18,1) 65%, rgba(0,0,0,1) 100%);
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+.left-content{
+    margin-top: 50px !important;
+}
+.right-content{
+    background-color: white;
+    border-radius: 25px;
+}
+.right-content-top{
+    border-bottom: 1px solid lightgray;
+}
+.rating{
+    display: flex;
+}
+.rating i{
+    color: orange;
+}
+.right-content-top h3{
+    font-weight: bold;
+}
+.right-content-mid{
+    margin-top: 50px !important;
+    border-bottom: 1px solid lightgray;
+}
+.table tbody{
+    font-size: 16px;
+}
+.right-content-bottom{
+    margin-top: 50px !important;
+}
+.inputs-div{
+    display: flex;
+    flex-direction: column !important;
+}
+.inputs-div .inputs{
+    width: 200px !important;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 3px;
+}
+.inputs-div .input-small{
+    width: 100px !important;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.btn.btn-primary.btn-lg.payment-btn{
+    width: 100%;
+    background-color: #03254c;
+    border: none;
+    margin-bottom: 10px;
+}
